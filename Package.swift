@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "Actions",
             url: "https://github.com/Luscii/actions-sdk-ios/releases/download/24/merge/Actions.xcframework.zip",
-            checksum: "230b80931807887643209ab29826dd86dfb26866773d79d38aae039dfc10985d"
+            checksum: "49bc0c406f818f0b4e1a9853bda61720cb762a8876f22c31900c0c58650acf5e"
         )
     ]
 )
