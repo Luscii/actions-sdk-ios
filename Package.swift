@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "Actions",
-            targets: ["Actions"]
+            targets: ["ActionsTarget"]
         )
     ],
     dependencies: [
@@ -27,8 +27,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/0.2.1/Actions.xcframework.zip",
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/0.2.2/Actions.xcframework.zip",
             checksum: "74e87cefd1bb1e12d24518c700217d0ce920cbdd35a869f9cac78f954d9abfac"
+        ),
+        .target(
+            name: "ActionsTarget",
+            dependencies: [
+                .product(name: "Actions"),
+                .product(name: "Alamofire"),
+                .product(name: "SVGKit"),
+                .product(name: "Lottie", package: "lottie-ios"),
+                .product(name: "RxSwift", package: "rxc-ios"),
+                .product(name: "RxCocoa", package: "rxc-ios"),
+                .product(name: "RxRelay", package: "rxc-ios"),
+                .product(name: "HTTPii", package: "httpii-ios"),
+                .product(name: "Stiijl", package: "stiijl-ios"),
+                .product(name: "Kraan", package: "kraan-ios")
+            ]
         )
     ]
 )
