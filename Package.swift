@@ -33,7 +33,7 @@ let package = Package(
         .target(
             name: "ActionsTarget",
             dependencies: [
-                .product(name: "Actions"),
+                .target(name: "Actions"),
                 .product(name: "Alamofire"),
                 .product(name: "SVGKit"),
                 .product(name: "Lottie", package: "lottie-ios"),
