@@ -20,6 +20,7 @@ let package = Package(
         .package(url: "https://github.com/SVGKit/SVGKit.git", from: "3.0.0"),
         .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.3.0"),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.0.0"),
+        .package(url: "https://github.com/hungrxyz/BetterCodable.git", from: "0.2.0"),
         .package(url: "git@github.com:Luscii/httpii-ios.git", from: "0.1.0"),
         .package(url: "git@github.com:Luscii/stiijl-ios.git", from: "0.2.0"),
         .package(url: "git@github.com:Luscii/kraan-ios.git", from: "0.1.0")
@@ -40,6 +41,7 @@ let package = Package(
                 .product(name: "RxCocoa", package: "RxSwift"),
                 .product(name: "RxSwift", package: "RxSwift"),
                 .product(name: "RxRelay", package: "RxSwift"),
+                .product(name: "BetterCodable", package: "BetterCodable"),
                 .product(name: "HTTPii", package: "httpii-ios"),
                 .product(name: "Stiijl", package: "stiijl-ios"),
                 .product(name: "Kraan", package: "kraan-ios")
