@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.8.0"),
         .package(url: "https://github.com/SVGKit/SVGKit.git", from: "3.0.0"),
-        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.4.0"),
+        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.3.0"),
         .package(url: "https://github.com/Luscii/rxc-ios.git", from: "6.0.0"),
         .package(url: "git@github.com:Luscii/httpii-ios.git", from: "0.1.0"),
         .package(url: "git@github.com:Luscii/stiijl-ios.git", from: "0.2.0"),
