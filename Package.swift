@@ -34,8 +34,8 @@ let package = Package(
             name: "ActionsTarget",
             dependencies: [
                 .target(name: "Actions"),
-                .product(name: "Alamofire"),
-                .product(name: "SVGKit"),
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "SVGKit", package: "SVGKit"),
                 .product(name: "Lottie", package: "lottie-ios"),
                 .product(name: "RxCocoa", package: "RxSwift"),
                 .product(name: "RxSwift", package: "RxSwift"),
