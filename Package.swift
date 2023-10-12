@@ -39,6 +39,7 @@ let package = Package(
                 .product(name: "SVGKit", package: "SVGKit"),
                 .product(name: "Lottie", package: "lottie-ios"),
                 .product(name: "RxCocoa", package: "RxSwift"),
+                .product(name: "RxCocoaRuntime", package: "RxSwift"),
                 .product(name: "RxSwift", package: "RxSwift"),
                 .product(name: "RxRelay", package: "RxSwift"),
                 .product(name: "BetterCodable", package: "BetterCodable"),
