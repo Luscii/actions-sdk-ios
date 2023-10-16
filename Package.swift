@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "Actions",
-            targets: ["Actions"]
+            targets: ["Actions", "Rx"]
         )
     ],
     dependencies: [
