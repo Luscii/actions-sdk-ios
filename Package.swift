@@ -23,8 +23,8 @@ let package = Package(
             name: "Actions",
             url: "https://github.com/Luscii/actions-sdk-ios/releases/download/0.2.3/Actions.xcframework.zip",
             checksum: "cff9064cff856c0af4b91ee024e06d08fb35ef15d77b671a89bae464713d33f4"
-        )
-       .target(
+        ),
+        .target(
            name: "Rx",
            dependencies: [
                .product(name: "RxCocoa", package: "rxc-ios"),
