@@ -16,7 +16,7 @@ let package = Package(
         )
     ],
     dependencies: [
-       .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.6.0")
+       .package(url: "https://github.com/Luscii/rxc-ios.git", from: "6.6.0")
     ],
     targets: [
         .binaryTarget(
@@ -27,9 +27,9 @@ let package = Package(
         .target(
            name: "Rx",
            dependencies: [
-               .product(name: "RxCocoa", package: "RxSwift"),
-               .product(name: "RxSwift", package: "RxSwift"),
-               .product(name: "RxRelay", package: "RxSwift")
+               .product(name: "RxCocoa", package: "rxc-ios"),
+               .product(name: "RxSwift", package: "rxc-ios"),
+               .product(name: "RxRelay", package: "rxc-ios")
            ]
        )
     ]
