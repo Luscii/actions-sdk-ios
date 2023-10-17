@@ -21,8 +21,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/0.2.2/Actions.xcframework.zip",
-            checksum: "c0acbfa67c481339a2d80f12e6f9bdccf04c45e3279967f723d77989e6f4ed09"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/0.2.3/Actions.xcframework.zip",
+            checksum: "b205ceb067f95e47daab6e520454438cde2ea996aeca661048e791d987533cbc"
         ),
         .target(
             name: "Rx",
