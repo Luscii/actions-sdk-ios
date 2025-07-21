@@ -12,25 +12,14 @@ let package = Package(
     products: [
         .library(
             name: "Actions",
-            targets: ["Actions", "Rx"]
+            targets: ["Actions"]
         )
-    ],
-    dependencies: [
-        .package(url: "https://github.com/Luscii/rxc-ios.git", from: "6.6.0")
     ],
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/1.2.0/Actions.xcframework.zip",
-            checksum: "eb9d5e28b853f87a38732bf6e8e864ea2ddd93b97a7defc87327a64421af1c4f"
-        ),
-        .target(
-            name: "Rx",
-            dependencies: [
-               .product(name: "RxCocoa", package: "rxc-ios"),
-               .product(name: "RxSwift", package: "rxc-ios"),
-               .product(name: "RxRelay", package: "rxc-ios")
-            ]
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/1.3.0/Actions.xcframework.zip",
+            checksum: "39afa9b28c9a36115b2c99ce8d897363a0f708b4e04074463f83454a48d6f611"
         )
     ]
 )
