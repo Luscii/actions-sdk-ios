@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Actions",
     platforms: [
-        .iOS(.v14), 
+        .iOS(.v15), 
         .macOS(.v11)
     ],
     products: [
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/1.4.1/Actions.xcframework.zip",
-            checksum: "4ccb9c4879d3de9cf601f899764460abc7cf5020c5693f5a52f64ac7d5271649"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/1.5.0/Actions.xcframework.zip",
+            checksum: "99384fb850d65f6d9737de8067eeb77248e873c4b578fddde7ee20af2bda277b"
         )
     ]
 )
