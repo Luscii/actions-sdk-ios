@@ -16,23 +16,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.1/Actions.xcframework.zip",
-            checksum: "0a1489634c629b1ecd9c235e61983a272fcf6dc136d6df3f46154ab6fc45a95e"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.2/Actions.xcframework.zip",
+            checksum: "edb59fd377b92f23f397ab74a5578fa22daa5b24ddf71c0ee151af10ffac3f6f"
         ),
         .binaryTarget(
             name: "Centraal",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.1/Centraal.xcframework.zip",
-            checksum: "5f4baa08a7d05006afdd848f81960de51d477c60e4337bf42cafc4add78c796e"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.2/Centraal.xcframework.zip",
+            checksum: "245b99aa26da55026edbb6b138f1a96f4426e6647dea44c46d9b35daadd18262"
         ),
         .binaryTarget(
             name: "HTTPii",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.1/HTTPii.xcframework.zip",
-            checksum: "56c2e215b6f0c48916b449e5811a5a81c3559e8e1bef1b79d7bdab3fee9c9839"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.2/HTTPii.xcframework.zip",
+            checksum: "422a04f66807eb3534ba0b2e2c09ecd245bf7b946942dd556d960e293ddcfa32"
         ),
         .binaryTarget(
             name: "Measurements",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.1/Measurements.xcframework.zip",
-            checksum: "886c2b9644edff0c2fadeaf5033f931dd94304aac86617ddab882297809ed32a"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.0.0-beta.2/Measurements.xcframework.zip",
+            checksum: "669820cfdc5646f811df7456a9039793a02cba00da8e8f2ea0fbe42278157436"
         ),
         .target(
             name: "ActionsSDK",
