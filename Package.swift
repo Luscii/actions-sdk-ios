@@ -16,23 +16,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Actions",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.2.0/Actions.xcframework.zip",
-            checksum: "f09c9c47dd2998f6f250e68e7bf8653e2304efa28c7134970ccf42bc42a7570d"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.3.0-beta.1/Actions.xcframework.zip",
+            checksum: "356dfc81417137eeb649b67235a0f00e15e8a8f7ea0d1734955ec24a63828928"
         ),
         .binaryTarget(
             name: "Centraal",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.2.0/Centraal.xcframework.zip",
-            checksum: "32e806de4f362dba96a0dfd77ff6ceec7981416462048289c1e6583a35a57162"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.3.0-beta.1/Centraal.xcframework.zip",
+            checksum: "e6177e95f064b73b82cdb8195d3b069ce2497117148d858353bf7338ad59de84"
         ),
         .binaryTarget(
             name: "HTTPii",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.2.0/HTTPii.xcframework.zip",
-            checksum: "1616f69221e3ba31dd2279d03bdccf348940f9c887d498d33ce9cfc8f003fe0f"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.3.0-beta.1/HTTPii.xcframework.zip",
+            checksum: "84de115333e0d0e458f426c57d7d0c7ea5115469f513b15a725d5df70779517a"
         ),
         .binaryTarget(
             name: "Measurements",
-            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.2.0/Measurements.xcframework.zip",
-            checksum: "6e9aa76728bee7b3051cb77f9d0f9454ef7097504401f06da3d7bc43d13accd3"
+            url: "https://github.com/Luscii/actions-sdk-ios/releases/download/2.3.0-beta.1/Measurements.xcframework.zip",
+            checksum: "8d2c9eb28c00d7c2d8af2814aa94d420b5a36f886ec40f0999b999020edd1ad7"
         ),
         .target(
             name: "ActionsKit",
